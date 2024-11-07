@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <title>Jogos Mortais</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">=
+            <img src="img/sala terror.avif" alt="">
+            <p>VocÊ acorda em uma sala escura com uma corda em seu pescoço e fica entre duas escolhas.</p>
+            <button class="btn-proximo" data-proximo="1">Tentar pegar uma faca dentada de dois gumes.</button>
+            <button class="btn-proximo" data-proximo="2">pegar uma serra</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/faca dentada.jpg" alt="">
+            <p>Ao tentar pegar a faca, você sente a corda te puxando lentamente para trás, escutando o som de diversas laminas de onde você esta sendo puxado.</p>
+            <button class="btn-proximo" data-proximo="3">Pegar Faca</button>
+            <button class="btn-proximo" data-proximo="0">Voltar</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/serra.jpg" alt="">
+            <p>Ao tentar pegar a serra, você sente a corda te puxando lentamente para trás, tendo que sacrificar sua mao em uma guilhotina para liberar a serra.</p>
+            <button class="btn-proximo" data-proximo="4">pegar uma serra</button>
+            <button class="btn-proximo" data-proximo="0">Voltar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/mao faca.jpg" alt="">
+            <p>Ao pegar a faca vc corta a corda abrindo uma ferida em sua mão. Na proxima sala vc se depara com uma cena horrivel</p>
+            <button class="btn-proximo" data-proximo="5">Proxima sala</button>
+            <button class="btn-proximo" data-proximo="5">Voltar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/mao serra.jpg" alt="">
+            <p>Ao pegar a serra, você corta a corda e tira um pedaço de sua camiseta, para estanca o sangue com uma dor imensa. Na proxima sala vc se depara com uma cena horrivel</p>
+            <button class="btn-proximo" data-proximo="5">Proxima sala</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você se depara com um toca disco e uma tv velha, ao colocar o toca disco, você olha algumas imagens de pessoas que você se recusou a ajudar, que deixou morrer sem nenhuma chance de vida, por puro egoismo.</p>
+            <button class="btn-proximo" data-proximo="6">Revoltar-se</button>
+            <button class="btn-proximo" data-proximo="7">Acalma-se</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você se desespera grita de raiva perguntando quem esta fazemdo aquilo e como sabia daquilo tudo.</p>
+            <button class="btn-proximo" data-proximo="8">Prosseguir</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ao ver as imagens você olha para o canto na sala que tinha acabado de entra procurando alguma saida daquele lugar.</p>
+            <button class="btn-proximo" data-proximo="9">Prosseguir</button>
+            
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Aparece uma voz saindo de um alto falante, dizendo se ele sentia remorcio pelas coisas que fez, que umas das pessoa que ele se recusou a ajudar era seu pai, que estava em um estado grave. QUE ELE TERIA SUA VINGANÇA, POREM IRIA FAZER ELE SOFRER.</p>
+            <button class="btn-proximo" data-proximo="9">Pedir Perdão</button>
+            <button class="btn-proximo" data-proximo="10">Insultar a voz que ecoava a sala</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ao pedir Perdão implorando pela vida, jurando que iria mudar, ecoa a voz novamente.
+                “posso te fazer uma pergunta doutor... você ressuscita os mortos?” 
+                liberando um gas venenoso das paredes e sufocando o culpado até a morte.</p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ao Insultar a voz misteriosa, a voz ecoa a sala novamente. Sinto muito, você nao vai sair vivo daqui, você nao ligou quando matou aquelas pessoas inocentes.
+                liberando um gás venenoso das paredes matando ele lentamente e com muita dor.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
